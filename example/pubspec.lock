@@ -155,13 +155,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_nice_image_compress:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.0.0"
   flutter_image_compress:
     dependency: "direct main"
     description:
@@ -218,6 +211,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.0.0"
+  flutter_nice_image_compress:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
