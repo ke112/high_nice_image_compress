@@ -10,7 +10,7 @@
 /// ## Example
 ///
 /// ```dart
-/// import 'package:high_effort_image_compress/high_effort_image_compress.dart';
+/// import 'package:flutter_nice_image_compress/flutter_nice_image_compress.dart';
 ///
 /// // Basic usage
 /// final result = await ImageCompressorService.compressToTarget(

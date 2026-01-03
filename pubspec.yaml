@@ -1,9 +1,9 @@
-name: high_effort_image_compress
+name: flutter_nice_image_compress
 version: 1.0.0
 description: A powerful Flutter plugin for advanced image compression with intelligent algorithms that balance size and quality.
-homepage: https://github.com/ke112/high_effort_image_compress
-repository: https://github.com/ke112/high_effort_image_compress
-issue_tracker: https://github.com/ke112/high_effort_image_compress/issues
+homepage: https://github.com/ke112/flutter_nice_image_compress
+repository: https://github.com/ke112/flutter_nice_image_compress
+issue_tracker: https://github.com/ke112/flutter_nice_image_compress/issues
 
 environment:
   sdk: ^3.0.0

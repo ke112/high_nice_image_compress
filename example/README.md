@@ -1,6 +1,6 @@
-# high_effort_image_compress_example
+# flutter_nice_image_compress_example
 
-Demonstrates how to use the high_effort_image_compress plugin.
+Demonstrates how to use the flutter_nice_image_compress plugin.
 
 ## Getting Started
 
