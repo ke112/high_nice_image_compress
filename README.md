@@ -135,31 +135,31 @@ Returns a `Future<ImageCompressorResult>` containing the compressed image data.
 
 Configuration class for compression parameters.
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `targetSizeInKB` | `int` | required | Target file size in KB |
-| `initialQuality` | `int` | `92` | Starting compression quality (0-100) |
-| `minQuality` | `int` | `40` | Minimum allowed quality (0-100) |
-| `maxWidth` | `int?` | `null` | Maximum image width (optional) |
-| `maxHeight` | `int?` | `null` | Maximum image height (optional) |
-| `format` | `CompressFormat` | `CompressFormat.jpeg` | Output image format |
-| `keepExif` | `bool` | `false` | Preserve EXIF data (JPEG only) |
-| `earlyStopRatio` | `double` | `0.95` | Stop when within ratio of target size |
-| `nearTargetFactor` | `double` | `1.2` | Near-target optimization threshold |
-| `preferredMinQuality` | `int` | `80` | Preferred minimum quality for near-target images |
-| `maxAttemptsPerDim` | `int` | `5` | Max attempts per dimension |
-| `maxTotalTrials` | `int` | `24` | Max total compression attempts |
+| Property              | Type             | Default               | Description                                      |
+| --------------------- | ---------------- | --------------------- | ------------------------------------------------ |
+| `targetSizeInKB`      | `int`            | required              | Target file size in KB                           |
+| `initialQuality`      | `int`            | `92`                  | Starting compression quality (0-100)             |
+| `minQuality`          | `int`            | `40`                  | Minimum allowed quality (0-100)                  |
+| `maxWidth`            | `int?`           | `null`                | Maximum image width (optional)                   |
+| `maxHeight`           | `int?`           | `null`                | Maximum image height (optional)                  |
+| `format`              | `CompressFormat` | `CompressFormat.jpeg` | Output image format                              |
+| `keepExif`            | `bool`           | `false`               | Preserve EXIF data (JPEG only)                   |
+| `earlyStopRatio`      | `double`         | `0.95`                | Stop when within ratio of target size            |
+| `nearTargetFactor`    | `double`         | `1.2`                 | Near-target optimization threshold               |
+| `preferredMinQuality` | `int`            | `80`                  | Preferred minimum quality for near-target images |
+| `maxAttemptsPerDim`   | `int`            | `5`                   | Max attempts per dimension                       |
+| `maxTotalTrials`      | `int`            | `24`                  | Max total compression attempts                   |
 
 ### ImageCompressorResult
 
 Result class containing compression outcome.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `file` | `File` | The compressed image file |
-| `bytes` | `int` | Size of compressed image in bytes |
-| `qualityUsed` | `int` | Quality setting used (0-100) |
-| `sizeInfo` | `SizeInfo` | Image dimension information |
+| Property      | Type       | Description                       |
+| ------------- | ---------- | --------------------------------- |
+| `file`        | `File`     | The compressed image file         |
+| `bytes`       | `int`      | Size of compressed image in bytes |
+| `qualityUsed` | `int`      | Quality setting used (0-100)      |
+| `sizeInfo`    | `SizeInfo` | Image dimension information       |
 
 ### CompressFormat
 
@@ -173,9 +173,9 @@ Enum for supported compression formats.
 
 Class containing image dimension information.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `width` | `int?` | Image width in pixels |
+| Property | Type   | Description            |
+| -------- | ------ | ---------------------- |
+| `width`  | `int?` | Image width in pixels  |
 | `height` | `int?` | Image height in pixels |
 
 ## Algorithm Details
@@ -232,3 +232,7 @@ samples, guidance on mobile development, and a full API reference.
 The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
 To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
 You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/to/pubspec-plugin-platforms.
+
+<img src="example/assets/images/demo_1.png" width="300" />
+
+<img src="example/assets/images/demo_2.png" width="300" />
