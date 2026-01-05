@@ -20,6 +20,7 @@
 ///
 /// print('Compressed to ${result.bytes} bytes with quality ${result.qualityUsed}');
 /// ```
+library;
 
 export 'src/image_compressor.dart'
     show ImageCompressorService, ImageCompressorResult, ImageCompressorOptions, SizeInfo, CompressFormat;
